@@ -3,7 +3,7 @@ const Xposition = 'right'
 const Yposition = 'bottom'
 const videoLink = 'https://www.youtube.com/watch?v=EywWngU5xDk'
 
-const iframe = document.createElement('div')
+const iframe = document.createElement('iframe')
 iframe.setAttribute('src', videoLink)
 iframe.setAttribute('width', '360')
 iframe.setAttribute('height', '115')
